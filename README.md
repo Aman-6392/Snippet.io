@@ -1,21 +1,45 @@
-<<<<<<< HEAD
-# React + Vite
+# Snippet-io 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Snippet-io is a modern web application designed for developers to store, manage, and share their code snippets efficiently. It features a clean UI, syntax highlighting, and cloud synchronization.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+[https://snippet-io.vercel.app/](https://snippet-io.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
+- **Syntax Highlighting:** Support for multiple languages (JavaScript, Python, C++, etc.).
+- **Search & Filter:** Quickly find snippets by title, tag, or language.
+- **User Authentication:** Secure login/signup to persist your data.
+- **Copy to Clipboard:** One-click functionality to copy code.
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop views.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Snippet.io
-Snippet.io | Modern Code &amp; Note Saver
->>>>>>> 9fee8f146e33eaa9164c3a59b429adfcf224c2d3
+### Frontend
+- **Framework:** Next.js / React
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
+
+### Backend
+- **Environment:** Node.js
+- **Framework:** Express.js
+- **Database:** MongoDB / PostgreSQL
+- **Authentication:** JWT (JSON Web Tokens)
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+- Node.js (v16.x or later)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/snippet-io/Frontend.git](https://github.com/snippet-io/Frontend.git)
+   cd Frontend
